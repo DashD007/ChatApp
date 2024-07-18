@@ -17,8 +17,9 @@ import messageRouter from "./src/routers/message.router.js";
 // import {app} from "../socket/socketio.js";
 
 const corsOptions = {
-    origin:'http://localhost:1234',
-    credentials:true,   
+    origin:["https://chat-app-frontend-six-opal.vercel.app"],
+    methods : ["GET","POST","PATCH"],
+    credentials:true   
 };
 app.use(cors(corsOptions))
 app.use(cookieParser())
