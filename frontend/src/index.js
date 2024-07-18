@@ -36,7 +36,7 @@ function App(){
     const {socket} = useSelector((store) => store.socket)
     useEffect(()=>{
         if(authUser){
-            const socket = io('https://chatapp-backend-gules.vercel.app',{
+            const socket = io('https://chat-app-backend-delta-ochre.vercel.app',{
                 query:{
                     userId:authUser?._id
                 }

@@ -1,1 +1,1 @@
-export const backendURI = "https://chatapp-backend-gules.vercel.app/api/v1"
+export const backendURI = "https://chat-app-backend-delta-ochre.vercel.app/api/v1";
